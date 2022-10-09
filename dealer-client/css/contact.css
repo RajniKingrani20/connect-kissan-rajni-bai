@@ -1,0 +1,44 @@
+:root {
+  --orangeColor--: rgb(236, 153, 0);
+}
+.contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color: #000000e0;
+
+  /* Add the blur effect */
+  backdrop-filter: blur(3px);
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.contact-content .contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-content .contact-form div,
+.contact-content .contact-form input,
+.contact-content .contact-form textarea,
+.contact-content .contact-form button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact-content .contact-form input,
+.contact-content .contact-form textarea,
+.contact-content .contact-form button {
+  background-color: #000000b6;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--orangeColor--);
+  outline: none !important;
+  font-size: 18px;
+  color: #fff;
+}
+.contact-content .contact-form button {
+  background-color: var(--orangeColor--);
+  cursor: pointer;
+}
+.contact-content .contact-form input::placeholder,
+.contact-content .contact-form textarea::placeholder {
+  color: #fff;
+}

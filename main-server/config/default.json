@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb+srv://Nitin:Pakistan123@cluster0.jyypg.mongodb.net/kissan-db?retryWrites=true&w=majority",
+    "TOKEN_KEY": "helloworldfromconnectkissan",
+    "PORT": "8080"
+}

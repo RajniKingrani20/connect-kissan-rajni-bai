@@ -1,0 +1,129 @@
+cliftion block 5:
+1:ocean mall(24.8239° N, 67.0356° E)
+2:Emerald Tower & Mall(lat::24.82171° or long:24° 49' 18)
+3:Shaheed Zulfikar Ali Bhutto Institute of Science and Technology - 99 Campus(24.8199° N, 67.0307° E)
+4:pranzo(24°49'53.7"N 67°02'16.9"E)
+5: Pakistan Institute of Management(24°56'39.5"N 67°01'41.5"E)
+6: British Deputy High Commission(24°49'01.8"N 67°01'42.8"E)
+8:Bagh-e-Rustom(24.8156° N, 67.0256° E)
+9: mohatta palace museum(24.8143° N, 67.0327° E)
+10:Ufone Service Center Clifton(24°49'33.7"N 67°02'08.2"E)
+11:Do Talwar(24.8211° N, 67.0341° E)
+12:Urban Forest(25°00'29.6"N 67°18'46.8"E)
+13: Nadeem bin wali Muhammad Park(24.8222° N, 67.0315° E)
+14:Pinch & Co.(24°49'21.3"N 67°01'39.1"E)
+15:Bakhtawar Park(24.8259° N, 67.0267° E)
+16:Polo Ground(24.8205° N, 67.0245° E)
+17:Park Lane Hospital(24°49'00.1"N 67°01'53.5"E)
+18:aunty park(24.8197° N, 67.0276° E)
+19: Metropolitan Library(24°49'17.6"N 67°01'46.5"E)
+20:Ajwa(24.8226° N, 67.0279° E)
+21:Clifton Centre(24.8021° N, 67.0300° E)
+22:Park Towers(24.8141° N, 67.0271° E)
+23: KTTS(24°51'34.7"N 67°00'34.5"E)
+24:Karachista(24.8270° N, 67.0251° E)
+25:South City Health Care Education Hub(24°51'36.0"N 67°00'36.0"E)
+26:CBRL(24.8212° N, 67.0314° E)
+27:Ali Clinic(24°51'36.0"N 67°00'36.0"E)
+28:ADMC Arif Defence Medical Center(24°47'02.4"N 67°03'17.0"E)
+29:Karachi Grammar School, College Campus Clifton(24°49'24.2"N 67°01'32.9"E)
+30:MAL Pakistan Ltd(24.8216° N, 67.0265° E)
+
+
+
+
+Clifton Block 8:
+1:prince complex ( Latitude: 24° 48' 59.99" N Longitude: 67° 01' 60.00" E.)
+2: pso (24.8287° N, 67.0428° E)
+3: Glass Tower(24.8362° N, 67.0335° E)
+4: Street pilau(24.8330° N, 67.0376° E)
+5: DELHI COLONY (24.8305° N, 67.0431° E)
+6: CHANDIO(27.5796° N, 68.1156° E)
+7: Hashmanis Hospital(24.8296° N, 67.0407° E)
+8:Clifton Cantonment Park(24.8317° N, 67.0368° E)
+9: Khayaban-e-Iqbal Road(24.831445° N, 67.034232° E)
+10:Bachaa Party(24.8318° N, 67.0402° E)
+11: The East End (24.8306° N, 67.0385° E
+12: Moti Masjid (24.8310° N, 67.0370° E)
+13: Clifton Eid Gah(24.8305° N, 67.0399° E)
+14: Ignite Labs(24.8297° N, 67.0376° E)
+15:The City School University Road Campus(24°56'20.3"N 67°11'00.9"E)
+16: Saffron Banquet Clifton(24°49'51.7"N 67°02'04.3"E)
+17: Yamaha Music Pakistan(24°51'54.1"N 67°01'36.3"E)
+18: GULF TOWERS (24.8335° N, 67.0343° E)
+19: United King Clifton(24°50'05.1"N 67°02'08.9"E)
+20: Ami’s Super Store(24°48'49.5"N 67°02'55.2"E)
+21: Shaheed Zulfiqar Ali Bhutto University of Law Karachi.(24°52'18.7"N 67°10'45.5"E)
+22: saylani welfare(24.8359° N, 67.0368° E)
+23: Diamond Super Market(24°50'05.2"N 67°02'12.3"E)
+24: United King Clifton(24°50'05.1"N 67°02'08.9"E)
+25: Hasani masjid Clifton (24°49'43.2"N 67°02'13.4"E)
+26: Bachaa Party(24°51'34.6"N 67°00'34.9"E)
+27: Mother Care Dental Clinic(24°49'45.7"N 67°02'20.5"E)
+28: Mehenti Residency(24.8325° N, 67.0357° E)
+29: Côte Rôtie(24.8333° N, 67.0363° E)
+30: ABTACH Ltd(24.8296° N, 67.0415°E)
+
+
+
+
+
+
+
+
+
+
+
+clifton block 7
+1: Rajdhani Delights Karachi(24°49'47.9"N 67°02'02.4"E)
+2: Nadra Executive Registration Center(24°49'44.1"N 67°02'01.3"E)
+3: Kehkashan Shopping Arcade(24.8306° N, 67.0339° E)
+4: Hbl Mega Tower(24°49'56.8"N 67°02'00.5"E)
+5: Bath Island(24.8333° N, 67.0333° E)
+6: Teen Talwar Monument(Latitude. 24.83382° or 24° 50' 2" north. Longitude)
+7: IGP House(24.8316° N, 67.0269° E)
+8: Football ground tekri colony(24.8308° N, 67.0227° E)
+9: National Tiles Farm House(Latitude :   24.9904, Longitude :   67.175)
+10: St. Michael's Convent School Clifton- Karachi(24°51'36.0"N 67°00'36.0"E)
+11: Celestial Gardens (24.8324° N, 67.0303° E)
+12: Police Officers Residence(24.8288° N, 67.0231° E)
+13: Sindh Govt Officers Club SGOC(24°49'51.7"N 67°01'28.7"E)
+14: The club s(24.8305° N, 67.0314° E)
+15:Nandos, Boat Basin Karachi(24°49'37.5"N 67°01'29.3"E)
+16: Marine Drive(24.8127° N, 67.0115° E)
+17: Marina View(24.8275° N, 67.0260° E)
+18: Beverly Hills Villa(24.8309° N, 67.0288° E)
+19: Beverly Homes(24.8291° N, 67.0233° E)
+20: Shanghai Social(24.8275° N, 67.0278° E)
+
+
+
+
+clifton block 4
+1: The Valley Restaurant(24°48'32.7"N 67°02'00.6"E)
+2: Meezan Bank Ltd.(24°54'22.0"N 66°59'46.5"E)
+3: SERAI (24.8091° N, 67.0321° E)
+4: Alaska Restaurant(24.8089° N, 67.0314° E)
+5: Neelo's (24.7965° N, 67.0504° E)
+6: Full Circle gallery(24°48'25.3"N 67°01'58.1"E)
+7: Koel Cafe(24°51'14.6"N 67°01'23.3"E)
+8: Pakistan Institute of Tourism & Hotel Management(24°48'23.6"N 67°01'50.5"E)
+9: Imtiaz Super Market Clifton(24°48'15.4"N 67°01'45.4"E)
+10: Orchards Cottage Hotel Karachi(24°51'36.0"N 67°00'36.0"E)
+11: Nixor O Levels(24.8053° N, 67.0293° E)
+12: Dolmen Mall Clifton(24.8021° N, 67.0300° E)
+13: Cafe Aylanto(24.8042° N, 67.0312° E)
+14: The Deli (24.8037° N, 67.0321° E)
+15:Embassy of Kuwait(24.8052° N, 67.0332° E)
+
+
+
+
+
+
+
+
+
+
+
+

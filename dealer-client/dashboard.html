@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <title>Connect Kissan | Dashboard</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <h3><a href="index.html"> Connect Kissan </a></h3>
+      </div>
+      <div class="small-nav-icon">
+        <label id="navbar-chckd">
+          <div class="line line_1"></div>
+          <div class="line line_2"></div>
+          <div class="line line_3"></div>
+        </label>
+      </div>
+      <div class="navbar-menu">
+        <a href="dashboard.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a id="logoutBtn">Logout</a>
+      </div>
+    </nav>
+    <nav class="small-nav-drawer hide" id="small-nav">
+      <a href="dashboard.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a id="logoutBtn">Logout</a>
+    </nav>
+    <div class="dashboard">
+      <div class="left-board">
+        <div class="user-info">
+          <div class="image">
+            <img src="" class="icon" alt="profile" />
+          </div>
+          <h6>
+            Name: <strong class="username"></strong> &nbsp;&nbsp; Email:
+            <strong class="userEmail"></strong>
+          </h6>
+          <h6>
+            DealerShip: <strong class="dealerShip"></strong> &nbsp;&nbsp; Phone:
+            <strong class="phone"></strong>
+          </h6>
+        </div>
+        <form class="item-form" id="setItem">
+          <h2>Add your Item</h2>
+          <input
+            id="item-name"
+            type="text"
+            placeholder="Item name.."
+            required="true"
+          />
+          <textarea
+            id="item-details"
+            rows="4"
+            type="text"
+            placeholder="Item description.."
+            required="true"
+          ></textarea>
+          <input
+            id="item-type"
+            type="text"
+            placeholder="Item type.."
+            required="true"
+          />
+          <input
+            id="item-price"
+            type="text"
+            placeholder="Item price.."
+            required="true"
+          />
+          <input type="file" id="item-img" accept="image/*" />
+          <div id="s-message"></div>
+          <div id="confirm-message"></div>
+          <button class="add-item" type="reset">Reset</button>
+          <button class="add-item" type="submit">Add Item</button>
+        </form>
+      </div>
+
+      <div class="right-board">
+        <div class="user-items">
+          <h2>Your Items</h2>
+          <div class="item-content"></div>
+        </div>
+        <div class="logout-div">
+          <a class="item-button" id="get-item">Get My Items</a>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>

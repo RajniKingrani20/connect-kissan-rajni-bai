@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="./css/weather.css" />
+
+    <title>Connect Kissan | Weather</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <h3><a href="index.html"> Connect Kissan </a></h3>
+      </div>
+      <div class="small-nav-icon">
+        <label id="navbar-chckd">
+          <div class="line line_1"></div>
+          <div class="line line_2"></div>
+          <div class="line line_3"></div>
+        </label>
+      </div>
+      <div class="navbar-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <div class="dropdown">
+          <button class="dropbtn">Services</button>
+          <div class="dropdown-content">
+            <a href="weather.html">Weather</a>
+            <a href="dealers.html">Dealer Near me</a>
+            <a href="pesticides.html">Pesticide</a>
+            <a href="machines.html">Machines</a>
+            <a href="mandies.html">Mandies</a>
+            <a href="crops.html">Crops</a>
+            <a href="library.html">Library</a>
+            <a href="advise.html">Advise</a>
+          </div>
+        </div>
+        <a href="contact.html">Contact</a>
+        <a href="https://dealer-client-web.netlify.app/" target="blank"
+          >Join as Dealer</a
+        >
+      </div>
+      <div>
+        <a href="checkout.html">
+          <i
+            class="fa fa-shopping-cart"
+            style="font-size: 36px; color: orange; flex-direction: row"
+          ></i>
+        </a>
+      </div>
+    </nav>
+    <nav class="small-nav-drawer" id="small-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a class="services-menu" id="services-menu-id"
+        >Services
+        <i
+          style="margin-left: 0.2rem"
+          class="services-icon fa fa-caret-down"
+          id="services-icon-id"
+        ></i>
+      </a>
+      <div class="dropdown-small-menu" id="dropdown-small">
+        <div style="margin-top: 2rem">
+          <a href="weather.html">Weather</a>
+          <a href="dealers.html">Dealer Near me</a>
+          <a href="pesticides.html">Pesticide</a>
+          <a href="machines.html">Machines</a>
+        </div>
+        <div style="margin: 2rem auto">
+          <a href="mandies.html">Mandies</a>
+          <a href="crops.html">Crops</a>
+          <a href="library.html">Library</a>
+          <a href="advise.html">Advise</a>
+        </div>
+      </div>
+      <a href="contact.html">Contact</a>
+      <a href="https://dealer-client-web.netlify.app/" target="blank"
+        >Join as Dealer</a
+      >
+    </nav>
+    <!-- <div class="weather">
+      <div class="weather-section">
+        <div class="find-weather">
+          <input
+            id="weatherField"
+            name="weather-input"
+            type="text"
+            placeholder="Enter Your City Name"
+          />
+          <button id="weather-get" type="submit" onclick="GetInfo()">
+            Search
+          </button>
+        </div>
+        <h3><span class="weather-degree">--</span> &deg;C</h3>
+        <div>
+          <p>
+            <span class="city-name">--</span>,
+            <span class="country-name">--</span>
+          </p>
+        </div>
+        <i id="weather-icon" class="fa"></i>
+        <small class="city-forcast">--</small>
+      </div>
+    </div> -->
+
+    <!-- start here -->
+
+    <div class="container">
+      <div class="current-info">
+        <div class="date-container">
+          <div class="time" id="time">12:30 <span id="am-pm">PM</span></div>
+          <div class="date" id="date">Monday, 25 May</div>
+
+          <div class="others" id="current-weather-items"></div>
+        </div>
+
+        <div class="place-container">
+          <div class="time-zone" id="time-zone">Loading/Loading</div>
+          <div id="country" class="country">Loading</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="future-forecast">
+      <div class="today" id="current-temp">
+        <img
+          src="http://openweathermap.org/img/wn/10d@2x.png"
+          alt="weather icon"
+          class="w-icon"
+        />
+        <div class="other">
+          <div class="day">Loading</div>
+          <div class="temp">Loading&#176; C</div>
+          <div class="temp">Loading&#176; C</div>
+        </div>
+      </div>
+
+      <div class="weather-forecast" id="weather-forecast">
+        <div class="weather-forecast-item">
+          <div class="day">Loading</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Loading&#176; C</div>
+          <div class="temp">Loading&#176; C</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Loading</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Loading&#176; C</div>
+          <div class="temp">Loading&#176; C</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Loading</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Loading&#176; C</div>
+          <div class="temp">Loading&#176; C</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Loading</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Loading&#176; C</div>
+          <div class="temp">Loading&#176; C</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Loading</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Loading&#176; C</div>
+          <div class="temp">Loading&#176; C</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end here -->
+
+    <script src="js/script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+      integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script type="text/javascript" src="./js/weather.js"></script>
+  </body>
+</html>

@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  transition: 0.5s ease-in-out;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+:root {
+  --orangeColor--: rgb(236, 153, 0);
+}
+body {
+  background-image: url("../images/photo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.admin-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 230px;
+  background-color: #000000e0;
+
+  padding-bottom: 300px;
+  /* Add the blur effect */
+  backdrop-filter: blur(3px);
+}
+.admin-content a {
+  background-color: var(--orangeColor--);
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid var(--orangeColor--);
+}
+.admin-content a:hover {
+  background-color: rgba(255, 255, 255, 0.87);
+  color: var(--orangeColor--);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+.navbar .logo {
+  font-size: 1.8rem;
+}
+.navbar .logo a {
+  color: var(--orangeColor--) !important;
+  text-decoration: none;
+}
+.navbar-menu {
+  overflow: hidden;
+  margin-left: 150px;
+  font-weight: bold;
+}
+
+.small-nav-icon {
+  display: none;
+}
+
+.navbar-menu a {
+  float: left;
+  font-size: 0.8rem;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar-menu a:hover,
+.dropdown:hover .dropbtn {
+  background-color: var(--orangeColor--);
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000a4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  overflow: hidden;
+  /* Add the blur effect */
+  backdrop-filter: blur(3px);
+}
+
+.dropdown-content a {
+  float: none;
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--orangeColor--);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 100px;
+  align-items: flex-start;
+}
+
+/* .search-container {
+  float: left;
+} */
+
+.search-container input[type="text"] {
+  padding: 10px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  outline: none !important;
+  width: 500px;
+  background-color: #0000007a;
+  /* Add the blur effect */
+  backdrop-filter: blur(3px);
+  color: #fff;
+}
+.search-container input[type="text"]::placeholder {
+  color: var(--orangeColor--);
+}
+
+.search-container button {
+  float: right;
+  padding: 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: var(--orangeColor--);
+  color: #fff;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-bottom-right-radius: 8px;
+}
+
+.authenticate-box {
+  display: flex;
+  flex-direction: column !important;
+  border-radius: 10px;
+  width: 25%;
+  padding: 60px 40px;
+  background-color: #0000007a;
+  /* Add the blur effect */
+  backdrop-filter: blur(3px);
+}
+.authenticate-box form {
+  display: flex;
+  flex-direction: column;
+}
+.authenticate-box h3 {
+  background-color: #fff;
+  color: var(--orangeColor--);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  margin-bottom: 10px;
+}
+.authenticate-box form input {
+  padding: 10px;
+  background-color: transparent;
+  margin: 20px auto;
+  color: #fff;
+  width: 90%;
+  font-size: 1rem;
+  outline: none !important;
+  border: none;
+  border-bottom: 1px solid var(--orangeColor--);
+}
+.authenticate-box form input::placeholder {
+  color: #fff;
+}
+.authenticate-box form button {
+  background-color: var(--orangeColor--);
+  color: black;
+  padding: 8px 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  outline: none !important;
+  border: none !important;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.authenticate-box form button:hover {
+  background-color: #fff;
+  color: var(--orangeColor--);
+}
+.authenticate-box form small {
+  text-align: center;
+  color: #fff;
+  line-height: 1.2rem;
+  margin: 10px auto;
+}
+.authenticate-box form small a {
+  color: var(--orangeColor--);
+  cursor: pointer;
+}
+/* .passLabel {
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+#Pass,
+.passLabel.hide {
+  display: none;
+}
+#Pass:checked ~ .passLabel.hide {
+  display: block;
+}
+#Pass:checked ~ .passLabel.show {
+  display: none;
+} */
+
+.small-nav-drawer.hide {
+  display: none;
+}
+.navbar-checked {
+  display: none;
+}
+
+@media (max-width: 782px) {
+  .navbar-menu {
+    display: none;
+  }
+  .small-nav-icon {
+    display: block;
+    margin-left: auto;
+  }
+  .small-nav-icon .line {
+    background-color: #fff;
+    width: 30px;
+    margin: 7px;
+    height: 1px;
+  }
+
+  .small-nav-icon .line.line_2 {
+    background-color: var(--orangeColor--);
+    width: 27px;
+    margin-left: 10px;
+  }
+  .small-nav-icon #navbar-chckd.show .line.line_2 {
+    display: none;
+  }
+  .small-nav-drawer.show {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background-color: #1f1709d7;
+  }
+  .small-nav-drawer a,
+  .dropdown.small a {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+  }
+  .small-nav-drawer a {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-size: 400 !important;
+  }
+  .small-nav-drawer a:hover {
+    background-color: var(--orangeColor--);
+    border-radius: 5px;
+  }
+  .admin-content {
+    flex-direction: column;
+    padding: 30px;
+    height: 100vh;
+  }
+  .main-content {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .search-container {
+    width: 100%;
+  }
+  .search-container input[type="text"] {
+    width: 77%;
+  }
+  .authenticate-box {
+    width: 80%;
+    margin-top: 40px;
+  }
+}

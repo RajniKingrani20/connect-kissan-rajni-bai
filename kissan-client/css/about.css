@@ -1,0 +1,24 @@
+.about-content {
+  padding: 4rem;
+  background-color: #000000e0;
+  backdrop-filter: blur(8px);
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+.about-content .main-para {
+  margin: 3rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.about-content .vision-head,
+.mission-head {
+  font-weight: 500;
+}
+.about-content .vision-para,
+.mission-para {
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  word-spacing: 0.05rem;
+}

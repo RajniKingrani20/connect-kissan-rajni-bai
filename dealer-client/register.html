@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <title>Connect Kissan | Register</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <h3><a href="index.html"> Connect Kissan </a></h3>
+      </div>
+      <div class="small-nav-icon">
+        <label id="navbar-chckd">
+          <div class="line line_1"></div>
+          <div class="line line_2"></div>
+          <div class="line line_3"></div>
+        </label>
+      </div>
+      <div class="navbar-menu">
+      
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+    <nav class="small-nav-drawer hide" id="small-nav">
+     
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <section class="main-content">
+      <!--Sign Up-->
+      <div class="authenticate-box sign-up">
+        <h3>Sign up</h3>
+        <h3
+          id="signError"
+          style="padding: 0; background-color: crimson; color: #fff"
+        ></h3>
+        <form id="registerForm">
+          <input
+            id="name"
+            type="text"
+            placeholder="Full Name.."
+            name="name"
+            required
+            value=""
+          />
+          <input
+            id="dealer"
+            type="text"
+            placeholder="Enter Dealership.."
+            name="dealer"
+            required
+            value=""
+          />
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your Email.."
+            name="email"
+            required
+            value=""
+          />
+          <input
+            id="phone"
+            type="text"
+            placeholder="Phone Number.."
+            name="phone"
+            
+            value=""
+          />
+          <input
+            id="password"
+            type="password"
+            placeholder="Enter your Password.."
+            name="password"
+            required
+            value=""
+          />
+          <input type="file" id="user-img" accept="image/*" />
+
+          <button type="submit">Sign Up</button>
+          <small
+            >Already a User? <br />
+            <a href="login.html">Login Here</a>
+          </small>
+        </form>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>

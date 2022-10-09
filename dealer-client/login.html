@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <title>Connect Kissan | Login</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <h3><a href="index.html"> Connect Kissan </a></h3>
+      </div>
+      <div class="small-nav-icon">
+        <label id="navbar-chckd">
+          <div class="line line_1"></div>
+          <div class="line line_2"></div>
+          <div class="line line_3"></div>
+        </label>
+      </div>
+      <div class="navbar-menu">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+    <nav class="small-nav-drawer hide" id="small-nav">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <section class="main-content">
+      <!-- <div class="search-container">
+        <form action="/">
+          <input type="text" placeholder="type to text" name="search" />
+          <button type="submit">search</button>
+        </form>
+      </div> -->
+      <!--Login-->
+      <div class="authenticate-box login">
+        <h3>Login</h3>
+        <h3
+          id="loginError"
+          style="padding: 0; background-color: crimson; color: #fff"
+        ></h3>
+        <form id="loginForm">
+          <input
+            type="email"
+            id="loginEmail"
+            placeholder="Enter your Email.."
+            name="email"
+            required
+            value=""
+          />
+          <input
+            type="password"
+            id="loginPass"
+            placeholder="Enter your Password.."
+            name="password"
+            required
+            value=""
+          />
+          <div style="text-align: center; color: #fff">
+            <i class="showPass fa fa-eye" onclick="showPassword()"></i>
+            <i
+              style="display: none"
+              class="hidePass fa fa-eye-slash"
+              onclick="hidePassword()"
+            ></i>
+          </div>
+          <small class="error-box"></small>
+          <button type="submit">Login</button>
+          <small
+            >Don't have an account? <br />
+            <a href="register.html">Sign up Here</a>
+          </small>
+        </form>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
